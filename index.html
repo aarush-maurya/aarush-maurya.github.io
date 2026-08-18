@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python & Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">&lt;PyData /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">🌙</button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Aspiring Data Scientist</span>
+            <h1>Building core foundations in <br><span id="typing-text"></span><span class="cursor">|</span></h1>
+            <p>Driven by a passion for continuous learning, problem-solving, and unlocking insights through data.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#about" class="btn secondary">My Journey</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About My Journey</h2>
+        <div class="about-card">
+            <p>I am deeply passionate about understanding how things work beneath the surface. My focus centers on mastering <strong>Python</strong>, fundamentals of computer science, and data structures.</p>
+            <p>Rather than relying on quick shortcuts, I focus on building universal, first-principles logic to tackle complex problems. My ultimate goal is to grow into a skilled <strong>Data Scientist</strong> capable of turning real-world data into impactful solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Core Focus Areas</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Python Programming</h3>
+                <p>Building clean, structured scripts, mastering core syntax, data structures, and algorithmic logic.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Data Science Foundations</h3>
+                <p>Exploring data manipulation, statistical reasoning, and mathematical logic for analytical workflows.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Practicing algorithmic thinking on LeetCode and building fundamental systems projects from scratch.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="algo">Algorithms</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card" data-category="python">
+                <span class="tag">Python</span>
+                <h3>User Configuration Manager</h3>
+                <p>A structured Python utility built to manage dynamic application states, configurations, and user inputs cleanly.</p>
+            </div>
+            <div class="project-card" data-category="python">
+                <span class="tag">Python</span>
+                <h3>Budget Tracker Application</h3>
+                <p>An algorithmic budget management app designed to handle financial inputs, category breakdowns, and summaries.</p>
+            </div>
+            <div class="project-card" data-category="algo">
+                <span class="tag">Algorithms</span>
+                <h3>Algorithmic Problem Solving</h3>
+                <p>Implementations and space/time complexity analysis of core searching, sorting, and data structure algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Connect With Me</h2>
+        <p>I'm always eager to collaborate, learn, and discuss Python, Data Science, and technology.</p>
+        <div class="contact-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub Profile</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 • Designed for GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
