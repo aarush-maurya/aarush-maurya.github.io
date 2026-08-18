@@ -3,90 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aarush Maurya | Aspiring Data Scientist</title>
+  <title>Aarush Maurya</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
 
+  <div class="background-glow"></div>
+
   <!-- Navigation -->
   <nav class="navbar">
-    <div class="logo">Aarush.</div>
+    <div class="logo">AM<span>.</span></div>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#links">Links</a></li>
     </ul>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Header -->
   <header class="hero">
-    <div class="hero-content">
+    <div class="profile-container">
       <img src="https://i.ibb.co/gbL7PWV0/pfp.jpg" alt="Aarush Maurya" class="profile-pic" />
-      <h1>Hey, I'm <span class="highlight">Aarush</span> 👋</h1>
-      <p class="subtitle">Student & Aspiring Data Scientist</p>
-      <p class="bio-intro">I mess around with Python, build cool projects, and explore data because it's genuinely fun.</p>
-      <div class="cta-buttons">
-        <a href="#contact" class="btn primary">Hit Me Up</a>
-        <a href="https://github.com/aarush-maurya" target="_blank" class="btn secondary">GitHub <i class="fa-brands fa-github"></i></a>
-      </div>
     </div>
+    <h1>Aarush Maurya</h1>
+    <p class="tagline">Data Science • Python</p>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>I'm currently a student grinding through academics while diving deep into the world of data science. Programming isn't just work for me—it's a hobby. I love writing Python scripts, working with algorithms, and turning raw data into something meaningful.</p>
-    </div>
-  </section>
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-title">
+        <h2>About</h2>
+        <div class="title-bar"></div>
+      </div>
+      <div class="content-box">
+        <p>I am Aarush , a Homo Sapien and I love logic (although I am bad at it, but I'll improve),that is why I absolutely love to code. I am an intermediate Python programmer and my aim is to become a successful Data Scientist. I put the "pro" in procrastinate</p>
+      </div>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <h2>What I Work With</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <i class="fa-brands fa-python skill-icon"></i>
-        <h3>Python</h3>
-        <p>Core programming, scripting, and logic building.</p>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-title">
+        <h2>Projects & Repos</h2>
+        <div class="title-bar"></div>
       </div>
-      <div class="skill-card">
-        <i class="fa-solid fa-chart-pie skill-icon"></i>
-        <h3>Data Science</h3>
-        <p>Analyzing datasets, pattern recognition, and statistics.</p>
-      </div>
-      <div class="skill-card">
-        <i class="fa-solid fa-code skill-icon"></i>
-        <h3>Problem Solving</h3>
-        <p>Data structures, algorithms, and logical thinking.</p>
-      </div>
-    </div>
-  </section>
+      <div class="grid">
 
-  <!-- Contact / Socials Section -->
-  <section id="contact" class="section">
-    <h2>Connect With Me</h2>
-    <p class="section-subtitle">Catch me on these platforms or drop a message!</p>
+        <a href="https://github.com/aarush-maurya/python-learning" target="_blank" class="card-link">
+          <div class="card">
+            <div class="card-header">
+              <h3>python-learning</h3>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p>An archive of my Python journey. Contains mini scripts, small projects, helpful utilities like the void shortcut, and my Python notes PDF.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Archive</span>
+              <span class="tag">Scripts</span>
+            </div>
+          </div>
+        </a>
 
-    <div class="social-cards">
-      <a href="https://github.com/aarush-maurya" target="_blank" class="social-card">
-        <i class="fa-brands fa-github"></i>
-        <span>aarush-maurya</span>
-      </a>
-      <a href="https://instagram.com/aarush.lives" target="_blank" class="social-card">
-        <i class="fa-brands fa-instagram"></i>
-        <span>aarush.lives</span>
-      </a>
-      <div class="social-card discord-card" id="discordBtn">
-        <i class="fa-brands fa-discord"></i>
-        <span>aarush.lives</span>
-        <small class="copy-hint">(Click to copy)</small>
+        <a href="https://github.com/aarush-maurya/todo-list" target="_blank" class="card-link">
+          <div class="card">
+            <div class="card-header">
+              <h3>todo-list</h3>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p>A simple Command Line Interface (CLI) todo list application that handles persistent task storage.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Storage</span>
+            </div>
+          </div>
+        </a>
+
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Links / Socials Section -->
+    <section id="links" class="section">
+      <div class="section-title">
+        <h2>Connect</h2>
+        <div class="title-bar"></div>
+      </div>
+      <div class="social-grid">
+        <a href="https://github.com/aarush-maurya" target="_blank" class="social-btn">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://instagram.com/aarush.lives" target="_blank" class="social-btn">
+          <i class="fa-brands fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+        <button id="discordBtn" class="social-btn">
+          <i class="fa-brands fa-discord"></i>
+          <span>Discord</span>
+          <span class="copy-status" id="copyStatus">Copy</span>
+        </button>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>Built with HTML, CSS & JS • Aarush Maurya</p>
+    <p>© Aarush Maurya</p>
   </footer>
 
   <script src="script.js"></script>
