@@ -5,7 +5,6 @@ if (discordBtn) {
   discordBtn.addEventListener('click', () => {
     const discordTag = 'aarush.lives';
     navigator.clipboard.writeText(discordTag).then(() => {
-      // Changed .copy-hint to .copy-status to match HTML
       const statusElement = discordBtn.querySelector('.copy-status');
       const originalText = statusElement.textContent;
       
