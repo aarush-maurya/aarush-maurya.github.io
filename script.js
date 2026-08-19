@@ -5,15 +5,18 @@ if (discordBtn) {
   discordBtn.addEventListener('click', () => {
     const discordTag = 'aarush.lives';
     navigator.clipboard.writeText(discordTag).then(() => {
-      const hint = discordBtn.querySelector('.copy-hint');
-      const originalText = hint.textContent;
+      // Changed .copy-hint to .copy-status to match HTML
+      const statusElement = discordBtn.querySelector('.copy-status');
+      const originalText = statusElement.textContent;
       
-      hint.textContent = '(Copied!)';
-      hint.style.color = '#38bdf8';
+      statusElement.textContent = 'Copied!';
+      statusElement.style.borderColor = 'var(--accent-cyan)';
+      statusElement.style.color = 'var(--accent-cyan)';
 
       setTimeout(() => {
-        hint.textContent = originalText;
-        hint.style.color = '';
+        statusElement.textContent = originalText;
+        statusElement.style.borderColor = '';
+        statusElement.style.color = '';
       }, 2000);
     });
   });
